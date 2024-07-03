@@ -1,4 +1,8 @@
 {
-  "name": "rescript-deriving-extensions",
-  "packageManager": "yarn@4.3.1"
+  "name": "project",
+  "private": true,
+  "packageManager": "yarn@4.3.1",
+  "workspaces": [
+    "rescript-parser-js"
+  ]
 }
